@@ -66,14 +66,7 @@ function gerar(){
         <html>
             <head>
                 <meta charset="UTF-8">
-                <style>
-                    body { font-family: 'Arial', sans-serif; padding: 20px; }
-                    h1 { color: #2c3e50; font-size: 24px; border-bottom: 2px solid #34495e; padding-bottom: 10px; }
-                    h3 { color: #7f8c8d; font-size: 16px; }
-                    ul { margin-top: 20px; }
-                    li { font-size: 14px; margin-bottom: 8px; list-style-type: square; }
-                    .total { font-size: 18px; font-weight: bold; color: #27ae60; margin-top: 30px; }
-                </style>
+               
             </head>
             <body>
                 <h1>PEDIDO CONFIRMADO</h1>

@@ -6,7 +6,7 @@
 }
 body{
     font-family: "Inter",sans-serif;
-    background-color: black;
+    background-color: rgb(36, 35, 35);
     min-height: 100vh;
     display: flex;
     align-items: center;
@@ -25,9 +25,16 @@ body{
     flex-direction: column;
     gap: 2vh;
     padding: 10px;
-    box-shadow: rgb(0, 0, 0);
+    box-shadow: rgb(0, 0, 0) 0px 5px;
 
 }
+.logo{
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+}
+
+
 .round{
     border-radius: 100%;
     width: 110px;
@@ -37,7 +44,7 @@ body{
     align-items: center;
     justify-content: center;
     position: absolute;
-    top: -1%;
+    top: 10%;
     left: 50%;
     transform: translate(-50%, -50%);
     box-shadow: rgb(0, 0, 0  0.8) 0px 5px 15px;
@@ -50,18 +57,70 @@ body{
     width: 80%;
     position: relative;
 }
-
 .eye{
     position: absolute;
     right: 10px;
     bottom: 7px;
-    
+}
+.wrap-input-label input{
+    background-color: transparent;
+    padding: 8px 0px;
+    border: none;
+    width: 100%;
+    border-bottom: 2px solid #ffecd1;
+    font-size: 18px;
+    color: #ffecd1;
+
 }
 
-.logo{
-    width: 200px;
+input::placeholder{
+    color: #001524;
+    font-size: 16px;
+}
+
+input:focus{
+    border: none;
+    outline: none;
+    color: #ff7d00;
+    font-size: 16px;
+    border: 2px solid #ff7d00;
+}
+btn-login{
+    padding: 10px;
+    width: 81%;
+    background-color: #ff7d00;
+    border-radius: 999px;
+    border: none;
+    border: 2px solid #001524;
+    font-size: 20px;
+    font-weight: bold;
+    color: #001524;
+    transition: all 200ms ease-in-out;
+    margin-top: 10px;
+}
+.btn-login:hover{
+    cursor: pointer;
+    color: #ffecd1;
+    border: 2px solid #ffecd1;
+    box-shadow: rgb(0, 0, 0  0.8) 0px 5px 15px;
 }
 
 .error-div{
-    display: none;
+    height: auto;
+    background-color: lightpink;
+    gap: 2vh;
+    padding: 10px;
+    position: absolute;
+    bottom: 5%;
+    font-size: 14px;
+    font-weight: lighter;
+    box-shadow: rgb(0, 0, 0  0.8) 0px 5px 15px;
+
+}
+
+.error-div button{
+    background-color: transparent;
+    border: none;
+    opacity: 0.7;
+    
 }

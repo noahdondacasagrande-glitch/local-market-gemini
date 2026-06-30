@@ -48,6 +48,7 @@ body{
     justify-content: center;
     opacity: 0.7;
     transition: all 200ms ease-in-out linear;
+   
 
 }
 .header a:hover{
